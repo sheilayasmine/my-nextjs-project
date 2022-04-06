@@ -5,7 +5,7 @@ const Button = ({
     return ( 
     <button 
        type={type} 
-       className="my-1 bg-gradient-to-r from-cyan-500 to-blue-500 w-full text-white py-3 rounded-2xl hover:from-cyan-400 hover:to-blue-400"> 
+       className="w-full py-2 mt-9  bg-[#A8A8A8] hover:bg-[#00229B] text-white font-semibold rounded-lg"> 
        {label} 
     </button> 
     ) 
